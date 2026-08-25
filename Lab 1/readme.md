@@ -14,9 +14,9 @@ dispatch to the relevant municipal departments.
 ## Deliverables
 | File | Description |
 |------|-------------|
-| `SE Hands-on 1 Req 1.pdf*` | 5 functional + 2 non-functional requirements (ID, type, description, priority, acceptance criteria, rationale) |
+| `SE Hands-on 1 Req 1.pdf` | 5 functional + 2 non-functional requirements (ID, type, description, priority, acceptance criteria, rationale) |
 | `SE Hands-on 1 Req 2.pdf` | UML use-case diagram: 3 actors, 9 use cases, system boundary, 2 «include» and 1 «extend» relationships |
-| `SE Hands-on 1 Req 3.pdf*` | Use-case flow for *Submit Damage Report* (preconditions, postconditions, main success scenario, one alternate flow) |
+| `SE Hands-on 1 Req 3.pdf` | Use-case flow for *Submit Damage Report* (preconditions, postconditions, main success scenario, one alternate flow) |
 
 ## Course
 PES University – Dept. of CSE – Software Engineering Lab
