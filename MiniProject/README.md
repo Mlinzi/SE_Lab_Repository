@@ -6,6 +6,24 @@ A local FastAPI service and React reviewer workspace built from the two supplied
 
 ## Run on Windows
 
+Run the whole application with one command (or double-click `launch.cmd`):
+
+```powershell
+.\launch.cmd
+```
+
+The launcher creates `.venv` if needed, installs the locked Python and npm dependencies on first use or when their lockfiles change, builds the dashboard, creates `.env` only if it is missing, and opens **http://127.0.0.1:8000** once the service is ready. The backend serves both the dashboard and API. Python 3.11+ with venv support and Node.js/npm must already be installed; the first setup needs internet access. Existing credentials and data are preserved.
+
+Keep the terminal open and press **Ctrl+C** to stop the server. Server logs are written to `.venv/dam-server.log` and `.venv/dam-server.err.log`. If port 8000 is occupied, choose another port:
+
+```powershell
+.\launch.cmd -Port 8001
+```
+
+Optional flags: `-NoBrowser` runs without opening a browser; `-SkipInstall` uses dependencies already installed; `-Check` builds, starts and verifies the app, then stops it. The PowerShell script can also be called directly with `powershell -NoProfile -ExecutionPolicy Bypass -File .\launch.ps1`.
+
+For manual setup instead:
+
 Use Python 3.11+ and Node.js 20.19+ or 22+. From the project folder:
 
 ```powershell
