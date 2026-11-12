@@ -20,7 +20,8 @@ jobs:
           cache: pip
           cache-dependency-path: MiniProject/requirements.lock
       - run: pip install -r requirements.lock
-      - run: python -m pytest -q --junitxml=test-results.xml
+      - run: pip install pytest-cov==7.1.0
+      - run: python -m pytest -q --junitxml=test-results.xml --cov=backend/dam --cov=sdk --cov-branch --cov-report=term-missing --cov-fail-under=85
       - run: pip install bandit pip-audit
       - run: bandit -r backend/dam sdk -ll
       - run: pip-audit -r requirements.lock
