@@ -31,7 +31,7 @@ Assigned repo: `SETAPESU26/L6_L7_29_thermostat_control` (Smart Thermostat Contro
 
 ## Running
 ```
-pip install hypothesis pytest
+uv pip install hypothesis pytest
 python thermostat_control.py
 python -m pytest test_thermostat_control.py
 ```

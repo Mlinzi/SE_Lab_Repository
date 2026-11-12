@@ -15,7 +15,7 @@ Assigned repo: `SETAPESU26/L6_L7_29_thermostat_control` (Smart Thermostat Contro
 
 ## Commands
 ```
-pip install coverage pytest
+uv pip install coverage pytest
 coverage run -m pytest CodeCoverageTest_thermostat_control.py          # line coverage
 coverage report -m
 coverage run --branch -m pytest BranchCoverageTest_thermostat_control.py  # branch coverage
