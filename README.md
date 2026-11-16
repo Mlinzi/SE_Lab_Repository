@@ -24,7 +24,7 @@ Team 39 · Team repository: [SE-MiniProject-Team-39/dehallucination-module](http
 |---|---|
 | D1 – Project SRS | [Dehallucination_Module_SRS_Phase1.pdf](MiniProject/Dehallucination_Module_SRS_Phase1.pdf) |
 | D2 – Test plan; complete backlog | [TEST_PLAN.md](MiniProject/docs/TEST_PLAN.md), [backlog.csv](MiniProject/docs/backlog.csv) (stories also tracked as GitHub issues in the team repo) |
-| D3/D4 – Architecture / design | [ARCHITECTURE.md](MiniProject/docs/ARCHITECTURE.md), [TRACEABILITY.md](MiniProject/docs/TRACEABILITY.md) |
+| D3/D4 – Software Architecture Document / Software Design Document | [SAD](MiniProject/docs/DAM_Software_Architecture_Document_SAD.docx), [SDD](MiniProject/docs/DAM_Software_Design_Document.docx), [ARCHITECTURE.md](MiniProject/docs/ARCHITECTURE.md), [TRACEABILITY.md](MiniProject/docs/TRACEABILITY.md) |
 | Sprint 1 & 2 – implementation, unit/integration/system tests, CI/CD | [backend](MiniProject/backend/), [frontend](MiniProject/frontend/), [testing](MiniProject/testing/) (32 documented cases across 4 levels), CI: [.github/workflows/miniproject.yml](.github/workflows/miniproject.yml) |
 | Final – test reports incl. code & branch coverage | [TEST_RESULTS.md](MiniProject/docs/TEST_RESULTS.md) (203 tests passing), [COVERAGE.md](MiniProject/docs/COVERAGE.md) (98.3% combined, 94.5% branch) |
 
