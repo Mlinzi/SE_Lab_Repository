@@ -26,6 +26,7 @@ Team 39 · Team repository: [SE-MiniProject-Team-39/dehallucination-module](http
 | D2 – Test plan; complete backlog | [TEST_PLAN.md](MiniProject/docs/TEST_PLAN.md), [backlog.csv](MiniProject/docs/backlog.csv) (stories also tracked as GitHub issues in the team repo) |
 | D3/D4 – Software Architecture Document / Software Design Document | [SAD](MiniProject/docs/DAM_Software_Architecture_Document_SAD.docx), [SDD](MiniProject/docs/DAM_Software_Design_Document.docx), [ARCHITECTURE.md](MiniProject/docs/ARCHITECTURE.md), [TRACEABILITY.md](MiniProject/docs/TRACEABILITY.md) |
 | Sprint 1 & 2 – implementation, unit/integration/system tests, CI/CD | [backend](MiniProject/backend/), [frontend](MiniProject/frontend/), [testing](MiniProject/testing/) (32 documented cases across 4 levels), CI: [.github/workflows/miniproject.yml](.github/workflows/miniproject.yml) |
+| Sprint demo videos (working product) | [Sprint 1 – 1 min](MiniProject/docs/sprint-1.mp4), [Sprint 2 – 2 min](MiniProject/docs/sprint-2.mp4) |
 | Final – test reports incl. code & branch coverage | [TEST_RESULTS.md](MiniProject/docs/TEST_RESULTS.md) (203 tests passing), [COVERAGE.md](MiniProject/docs/COVERAGE.md) (98.3% combined, 94.5% branch) |
 
 My contributions are the backend core and claim extraction (PRs #4–#8), the coverage report and CI coverage gate, and the formal test plan. See [ashrit-core-extraction.md](MiniProject/docs/ashrit-core-extraction.md).
