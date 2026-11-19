@@ -1,5 +1,25 @@
 # Dig Dug Repair Lab
 
+## My submission: PES2UG24AM032 (Ashrit Nair)
+
+Assigned repo `SETAPESU26/29_digDug`, forked to [Mlinzi/32_digDug](https://github.com/Mlinzi/32_digDug). Each task was a separate commit there, as the handout requires:
+
+| Task | Commit |
+|---|---|
+| 1. Fix the enemy pathfinding (BFS) bug | [c60df8e](https://github.com/Mlinzi/32_digDug/commit/c60df8e) |
+| 2. `dirt_color(row)`: distinct dirt colour bands | [45aaf50](https://github.com/Mlinzi/32_digDug/commit/45aaf50) |
+| 3. `on_enemy_popped`: particle burst when an enemy pops | [23b6a37](https://github.com/Mlinzi/32_digDug/commit/23b6a37) |
+| 4. `enemy_speed_multiplier(level)`: enemies speed up each level | [67b8750](https://github.com/Mlinzi/32_digDug/commit/67b8750) |
+
+Deliverables in this folder:
+- [game.py](game.py): the updated code, identical to the fork's final commit.
+- [before.mp4](before.mp4) and [after.mp4](after.mp4): 10-second recordings before and after the changes.
+- [chat_history.docx](chat_history.docx): the exported AI chat history.
+
+The assignment brief follows.
+
+---
+
 This project is a single-file Dig Dug-lite clone using **Pygame**. It introduces students to grid digging, breadth-first pathfinding, and multi-stage enemy state using a small, readable object-oriented codebase.
 
 ---

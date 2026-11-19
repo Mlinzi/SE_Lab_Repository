@@ -2,6 +2,19 @@
 
 ## Completed lab: PES2UG24AM032 — Ashrit Nair
 
+Assigned repo `SETAPESU26/L5_29_digital_wallet`, forked to [Mlinzi/PES2UG24AM032_L5_29_digital_wallet](https://github.com/Mlinzi/PES2UG24AM032_L5_29_digital_wallet). There is one fix commit per tool, as the handout requires:
+
+| Tool | Commit |
+|---|---|
+| Bandit | [4503cd0](https://github.com/Mlinzi/PES2UG24AM032_L5_29_digital_wallet/commit/4503cd0): fix security findings, keep the baseline reports |
+| Pylint | [508718d](https://github.com/Mlinzi/PES2UG24AM032_L5_29_digital_wallet/commit/508718d): fix findings and validate wallet operations |
+| Flake8 | [18d054b](https://github.com/Mlinzi/PES2UG24AM032_L5_29_digital_wallet/commit/18d054b): fix formatting, document verified results |
+
+Results:
+- **Pylint** went from 5.69/10 to **10.00/10**.
+- **Bandit** and **Flake8** report no remaining findings in the final file.
+- Before and after reports are in [reports/](reports/). The issue table is in [issues.md](issues.md), and the reflection answers are in [reflection.md](reflection.md).
+
 The cleaned program reads credentials from the environment. To run on Windows
 PowerShell (the values below are for the local classroom demo only):
 
